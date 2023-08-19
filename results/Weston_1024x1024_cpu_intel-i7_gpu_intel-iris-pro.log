@@ -1,0 +1,29 @@
+Compositor: Weston
+Driver: i915 Intel Graphics (1.6.0) - 20201103
+Buffer size: 1024x1024
+drawTest1: 10000 drawRect() opaque calls of  QSize(10, 10) SHM : 3587231 nanoseconds
+drawTest1: 10000 drawRect() opaque calls of  QSize(10, 10) DMA : 3238153 nanoseconds
+drawTest2: 10000 drawRect() translucent calls of  QSize(10, 10) SHM : 8175905 nanoseconds
+drawTest2: 10000 drawRect() translucent calls of  QSize(10, 10) DMA : 8447348 nanoseconds
+drawTest1: 100 drawRect() opaque calls of  QSize(102, 102) SHM : 342461 nanoseconds
+drawTest1: 100 drawRect() opaque calls of  QSize(102, 102) DMA : 368503 nanoseconds
+drawTest2: 100 drawRect() translucent calls of  QSize(102, 102) SHM : 1489223 nanoseconds
+drawTest2: 100 drawRect() translucent calls of  QSize(102, 102) DMA : 1499128 nanoseconds
+drawTest1: 1 drawRect() opaque calls of  QSize(1024, 1024) SHM : 226908 nanoseconds
+drawTest1: 1 drawRect() opaque calls of  QSize(1024, 1024) DMA : 201135 nanoseconds
+drawTest2: 1 drawRect() translucent calls of  QSize(1024, 1024) SHM : 294957 nanoseconds
+drawTest2: 1 drawRect() translucent calls of  QSize(1024, 1024) DMA : 250742 nanoseconds
+drawTest3: 1024 diagonal drawLine() opaque calls SHM : 26835667 nanoseconds
+drawTest3: 1024 diagonal drawLine() opaque calls DMA : 26714903 nanoseconds
+drawTest4: 1024 diagonal drawLine() translucent calls SHM : 34992042 nanoseconds
+drawTest4: 1024 diagonal drawLine() translucent calls DMA : 35083395 nanoseconds
+SHM Rendering Test:
+- WRITES 491
+- SECS: 10
+- FRAMES: 490
+- FPS: 49
+DMA Rendering Test:
+- WRITES 592
+- SECS: 10
+- FRAMES: 591
+- FPS: 59.1

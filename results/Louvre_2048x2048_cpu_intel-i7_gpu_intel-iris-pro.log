@@ -1,0 +1,29 @@
+Compositor: Louvre
+Driver: i915 Intel Graphics (1.6.0) - 20201103
+Buffer size: 2048x2048
+drawTest1: 10000 drawRect() opaque calls of  QSize(20, 20) SHM : 5860938 nanoseconds
+drawTest1: 10000 drawRect() opaque calls of  QSize(20, 20) DMA : 5489581 nanoseconds
+drawTest2: 10000 drawRect() translucent calls of  QSize(20, 20) SHM : 26169983 nanoseconds
+drawTest2: 10000 drawRect() translucent calls of  QSize(20, 20) DMA : 27675083 nanoseconds
+drawTest1: 100 drawRect() opaque calls of  QSize(204, 204) SHM : 1778961 nanoseconds
+drawTest1: 100 drawRect() opaque calls of  QSize(204, 204) DMA : 1876887 nanoseconds
+drawTest2: 100 drawRect() translucent calls of  QSize(204, 204) SHM : 3593179 nanoseconds
+drawTest2: 100 drawRect() translucent calls of  QSize(204, 204) DMA : 3704881 nanoseconds
+drawTest1: 1 drawRect() opaque calls of  QSize(2048, 2048) SHM : 1061306 nanoseconds
+drawTest1: 1 drawRect() opaque calls of  QSize(2048, 2048) DMA : 1103086 nanoseconds
+drawTest2: 1 drawRect() translucent calls of  QSize(2048, 2048) SHM : 1013870 nanoseconds
+drawTest2: 1 drawRect() translucent calls of  QSize(2048, 2048) DMA : 992291 nanoseconds
+drawTest3: 2048 diagonal drawLine() opaque calls SHM : 107469341 nanoseconds
+drawTest3: 2048 diagonal drawLine() opaque calls DMA : 107303752 nanoseconds
+drawTest4: 2048 diagonal drawLine() translucent calls SHM : 148889891 nanoseconds
+drawTest4: 2048 diagonal drawLine() translucent calls DMA : 149255127 nanoseconds
+SHM Rendering Test:
+- WRITES 368
+- SECS: 10
+- FRAMES: 367
+- FPS: 36.7
+DMA Rendering Test:
+- WRITES 402
+- SECS: 10
+- FRAMES: 401
+- FPS: 40.1
